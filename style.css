@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Brush Script MT;
+  }
+  body {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 100vh;
+       background: #29835d;
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       font-family: Goudy Old Style;
+  }
+  .glow {
+       font-size: 100px;
+       color: rgb(24, 41, 116);
+       font-weight: bold;
+       animation: glow 1s ease-in-out infinite alternate;
+       -moz-animation: glow 1s ease-in-out infinite alternate;
+       -webkit-animation: glow 1s ease-in-out infinite alternate;
+  }
